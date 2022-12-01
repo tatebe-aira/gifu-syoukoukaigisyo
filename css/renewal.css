@@ -1,0 +1,1080 @@
+/* setting.scss start*/
+
+.boxwrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1112px) {
+    .boxwrap {
+        width: 92%;
+    }
+}
+
+.fade {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.pc {
+    display: block;
+}
+
+@media screen and (max-width: 599px) {
+    .pc {
+        display: none;
+    }
+}
+
+.sp {
+    display: none;
+}
+
+@media screen and (max-width: 599px) {
+    .sp {
+        display: block;
+    }
+}
+
+.pc_ipad {
+    display: block;
+}
+
+@media screen and (max-width: 960px) {
+    .pc_ipad {
+        display: none;
+    }
+}
+
+.sp_ipad {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .sp_ipad {
+        display: block;
+    }
+}
+
+.pc_inline {
+    display: inline-block;
+}
+
+@media screen and (max-width: 599px) {
+    .pc_inline {
+        display: none;
+    }
+}
+
+.sp_inline {
+    display: none;
+}
+
+@media screen and (max-width: 599px) {
+    .sp_inline {
+        display: inline-block;
+    }
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+/* setting.scss end*/
+
+.jirei-page {
+    font-family: "Noto Sans JP", sans-serif;
+    color: #000;
+}
+
+.jirei-page .mv-img {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.jirei-page .full-top {
+    margin-top: -21px;
+}
+
+.jirei-page .relative {
+    position: relative;
+}
+
+.jirei-page p {
+    margin: 0;
+}
+
+.jirei-page .page-hd-logo {
+    width: 280px;
+    margin: 30px auto 0;
+}
+
+.jirei-page .page-hd-logo img {
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .page-hd-logo {
+        width: 70%;
+        margin: 30px auto;
+    }
+}
+
+.jirei-page .main-content {
+    padding: 115px 0 160px;
+    text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .main-content {
+        padding: 60px 0;
+    }
+}
+
+.jirei-page .main-content p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .main-content p {
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .jirei-page .main-content p {
+        font-size: 4vw;
+    }
+}
+
+.jirei-page .mv-title {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 50px;
+    border: none;
+    color: #000;
+    line-height: 2;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .mv-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list {
+        width: 100%;
+    }
+}
+
+.jirei-page .jirei-list .jirei-ttl {
+    width: 65%;
+    margin: 0 auto 85px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .jirei-ttl {
+        width: 90%;
+        margin-bottom: 70px;
+    }
+}
+
+.jirei-page .jirei-list .flexArea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.jirei-page .jirei-list .jirei-box {
+    width: 48%;
+    margin: 0 4% 100px 0;
+}
+
+.jirei-page .jirei-list .jirei-box:nth-of-type(even) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .jirei-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .jirei-page .jirei-list .jirei-box:nth-of-type(2) {
+        margin-bottom: 50px;
+    }
+}
+
+.jirei-page .jirei-list img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.jirei-page .jirei-list .company-img a {
+    display: block;
+    overflow: hidden;
+}
+
+.jirei-page .jirei-list .company-img a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.jirei-page .jirei-list .company-info {
+    padding: 35px 19px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 3px dashed #e9934a;
+}
+
+.jirei-page .jirei-list .media-info {
+    padding: 35px 19px 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 3px dashed #534741;
+    min-height: 200px;
+}
+
+.jirei-page .jirei-list .company-info .service {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+    min-height: 97px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .company-info .service {
+        font-size: 17px;
+        min-height: auto;
+    }
+    .jirei-page .jirei-list .media-info .service {
+        font-size: 17px;
+        min-height: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .jirei-page .jirei-list .company-info .service {
+        font-size: 3.8vw;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .company-info {
+        padding: 35px 4% 25px;
+    }
+}
+
+.jirei-page .jirei-list .company-label {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 2px 10px;
+    background: url(/jirei/images/company-label.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+.jirei-page .jirei-list .media-label {
+    font-size: 20px;
+    color: #534741;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    background: url(/jirei/images/other-media/media-label.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    margin: 100px auto 50px auto;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .company-label {
+        font-size: 14px;
+        margin-right: 17px;
+    }
+    .jirei-page .jirei-list .media-label {
+        font-size: 16px;
+        padding: 10px 40px;
+        background-size: contain;
+        background-position: center;
+        width: fit-content;
+        margin: 100px auto 50px auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .jirei-page .jirei-list .media-label {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jirei-page .jirei-list .media-label {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+}
+
+.jirei-page .jirei-list .company-name-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: center;
+    padding: 25px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jirei-page .jirei-list .media-name-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 25px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 150px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .company-name-box {
+        padding: 25px 4% 30px;
+    }
+}
+
+.jirei-page .jirei-list .company-name-box .field-label,
+.jirei-page .jirei-list .media-name-box .field-label {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 25px;
+    border: 1px solid #000;
+    margin-right: 20px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .company-name-box .field-label {
+        font-size: 15px;
+        margin-right: 17px!important;
+    }
+    .jirei-page .jirei-list .media-name-box .field-label {
+        padding: 6px 15px;
+    }
+    .jirei-page .jirei-list .jirei-box:nth-of-type(2) .media-label:nth-of-type(1) {
+        margin: 0 auto 50px auto;
+    }
+}
+
+.jirei-page .jirei-list .company-name-box .company-name,
+.jirei-page .jirei-list .media-name-box .company-name {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-page .jirei-list .company-name-box .company-name {
+        font-size: 19px;
+    }
+}
+
+.jirei-page .jirei-list .view-btn {
+    color: #4a96aa;
+    text-align: center;
+    border: 2px solid #4a96aa;
+}
+
+.jirei-page .jirei-list .media-view-btn {
+    color: #000;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+.jirei-page .jirei-list .view-btn,
+.jirei-page .jirei-list .media-view-btn {
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.jirei-page .jirei-list .view-btn:hover {
+    background: #4a96aa;
+    color: #fff;
+}
+
+.jirei-page .jirei-list .media-view-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.jirei-detail-page .fw-l {
+    font-weight: 300;
+}
+
+.jirei-detail-page .blue-text {
+    color: #4a96aa;
+}
+
+.jirei-detail-page .company-info-area {
+    padding: 130px 0 0;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .company-info-area {
+        padding: 70px 0 100px;
+    }
+}
+
+.jirei-detail-page .company-info-area p.fz22 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .company-info-area p.fz22 {
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        margin-top: 30px;
+    }
+}
+
+.jirei-detail-page .company-info-area .arrow {
+    width: 40px;
+    height: auto;
+    margin: 15px auto 0;
+    display: block;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .company-info-area .arrow {
+        width: 33px;
+        margin: 12px auto 0;
+    }
+}
+
+.jirei-detail-page .company-info-area .page-link-btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a96aa;
+    text-decoration: none;
+    letter-spacing: 0.12em;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #4a96aa;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    background: #ebf1f4;
+    padding-top: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .company-info-area .page-link-btn {
+        font-size: 21px;
+        width: 110px;
+        height: 110px;
+        padding-top: 30px;
+        bottom: 0px;
+        left: 90%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .company-info-area .page-link-btn {
+        font-size: 21px;
+        width: 110px;
+        height: 110px;
+        padding-top: 30px;
+        bottom: -150px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+.jirei-detail-page .flexArea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .flexArea {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .flexArea {
+        -ms-flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+.jirei-detail-page .company-type {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    padding: 2px 10px;
+    background: url(/jirei/images/company-label.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 10px;
+    letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .company-type {
+        font-size: 14px;
+        padding: 3px 5px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .jirei-detail-page .company-type {
+        font-size: 3.7vw;
+    }
+}
+
+.jirei-detail-page .company-name {
+    margin: 0;
+    color: #000;
+    border: none;
+    letter-spacing: 0.2em;
+    font-size: 38px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .company-name {
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        width: 66%;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .jirei-detail-page .company-name {
+        font-size: 5.3vw;
+    }
+}
+
+.jirei-detail-page .field-label {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border: 1px solid #000;
+    line-height: 1;
+    letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .field-label {
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .field-label {
+        font-size: 14px;
+        padding: 5px 20px;
+        width: fit-content;
+    }
+}
+
+.jirei-detail-page .mv-bottom-text {
+    margin: 20px auto 140px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .mv-bottom-text {
+        margin: 130px auto 100px;
+    }
+}
+
+.jirei-detail-page .mv-bottom-text p {
+    font-size: 18px;
+    line-height: 2.3;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .mv-bottom-text p {
+        font-size: 17px;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .intro-area {
+        width: 100%;
+    }
+}
+
+.jirei-detail-page .intro-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .jirei-detail-page .intro-box {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 45px;
+    }
+}
+
+.jirei-detail-page .intro-box .left-ttl {
+    background: url(/jirei/images/left-ttl-bg.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 30px;
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .jirei-detail-page .intro-box .left-ttl {
+        background: url(/jirei/images/sp-left-ttl-bg.gif) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+        writing-mode: horizontal-tb;
+        margin: 0 0 45px;
+        font-size: 22px;
+        padding: 5px 0;
+    }
+}
+
+.jirei-detail-page .intro-box .imgbox {
+    width: 36%;
+    margin-right: 4%;
+}
+
+.jirei-detail-page .intro-box .imgbox p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .intro-box .imgbox {
+        width: 100%;
+        margin: 0 0 45px;
+    }
+    .jirei-detail-page .intro-box .imgbox p {
+        margin-top: 0;
+        background: #208ca2;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px 0;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+    }
+}
+
+.jirei-detail-page .intro-box .textbox {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .intro-box .textbox {
+        width: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex: auto;
+        flex: auto;
+        padding: 0 5%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+.jirei-detail-page .intro-box .textbox h3 {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 22px;
+    letter-spacing: 0.22em;
+    color: #4a96aa;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .intro-box .textbox h3 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+}
+
+.jirei-detail-page .intro-box .textbox p {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.08em;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .intro-box .textbox p {
+        font-size: 17px;
+        line-height: 2;
+        letter-spacing: 0;
+    }
+}
+
+.jirei-detail-page .history-img {
+    margin-top: 100px;
+}
+
+.jirei-detail-page .message-box {
+    margin: 140px auto;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .message-box {
+        margin: 50px auto 100px;
+    }
+}
+
+.jirei-detail-page .about-company {
+    padding: 75px 0 100px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .about-company {
+        padding-bottom: 50px;
+    }
+}
+
+.jirei-detail-page .about-company h3 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    margin: 0 0 65px 0;
+    padding: 0;
+    border: none;
+    background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.jirei-detail-page .about-company h3:after {
+    content: "";
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e06a05), color-stop(50%, #208ca2), to(#208ca2));
+    background: linear-gradient(to right, #e06a05 50%, #208ca2 50%, #208ca2 100%);
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .about-company h3 {
+        margin-bottom: 40px;
+    }
+    .jirei-detail-page .about-company h3:after {
+        margin-left: 15px;
+    }
+}
+
+.jirei-detail-page .about-company .imgbox {
+    width: 45%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .about-company .imgbox {
+        width: 100%;
+        margin: 0 0 25px;
+    }
+}
+
+.jirei-detail-page .about-company .textbox {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 18px;
+    letter-spacing: 0.08em;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .about-company .textbox {
+        font-size: 17px;
+    }
+}
+
+.jirei-detail-page .about-company .textbox h4 {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    color: #000;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0 0 10px;
+    letter-spacing: 0;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .about-company .textbox h4 {
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+.jirei-detail-page .about-company .textbox dl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.jirei-detail-page .about-company .textbox dt {
+    font-weight: bold;
+    width: 90px;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .about-company .textbox dt {
+        width: 75px;
+    }
+}
+
+.jirei-detail-page .about-company .textbox dd {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .about-company .textbox {
+        width: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex: auto;
+        flex: auto;
+    }
+}
+
+.jirei-detail-page .view-btn {
+    margin: 50px auto 65px;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    color: #4a96aa;
+    border: 2px solid #4a96aa;
+    border-radius: 30px;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    letter-spacing: 0.14em;
+}
+
+.jirei-detail-page .view-btn:hover {
+    background: #4a96aa;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+    .jirei-detail-page .view-btn {
+        font-size: 20px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jirei-detail-page .view-btn {
+        width: 35%;
+    }
+    .jirei-page .jirei-list .media-name-box {
+        min-height: 155px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .jirei-detail-page .view-btn {
+        font-size: 19px;
+        margin: 25px auto;
+        padding: 10px 0;
+        width: 65%;
+        border: 1px solid #4a96aa;
+    }
+    .jirei-page .jirei-list .media-name-box {
+        min-height: 100px;
+    }
+}
+
+.company-labels {
+    margin-right: 10px;
+}
+
+.left-ttl-short {
+    letter-spacing: 0.3em!important;
+}
+
+.external {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .jirei-page .jirei-list .media-info {
+        min-height: 235px;
+    }
+    .jirei-page .jirei-list .media-view-btn {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .jirei-page .jirei-list .media-info {
+        min-height: 200px;
+    }
+    .jirei-page .jirei-list .jirei-box:nth-of-type(2) .media-info {
+        min-height: 250px;
+    }
+    .jirei-page .jirei-list .media-view-btn {
+        width: 70%;
+    }
+    .jirei-page .jirei-list .media-info {
+        order-top: 3px dashed #e06a05;
+    }
+}
+
+@media screen and (max-width:335px) {
+    .jirei-page .jirei-list .jirei-box:nth-of-type(1) .media-label:nth-of-type(1) {
+        padding: 10px 30px;
+    }
+    .se-none {
+        display: none;
+    }
+}
+
+.company-img iframe {
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .company-img iframe {
+        height: 263px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .company-img iframe {
+        height: 196px;
+    }
+}
