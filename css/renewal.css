@@ -1209,6 +1209,13 @@
     letter-spacing: 0.02em;
 }
 
+@media screen and (max-width:1024px) {
+    .access-area .access-ttl img {
+        left: 40%;
+        width: 20%;
+    }
+}
+
 @media screen and (max-width:768px) {
     .netWork-page .netWork-list-flex {
         flex-wrap: wrap;
@@ -1233,7 +1240,7 @@
         margin-top: 30px;
     }
     .netWork-page .netWork-about-area .netWork-about-flexBox .netWork-about-right p {
-        font-size: 19px;
+        font-size: 17px;
     }
     .netWork-page .netWork-list-flex .netWork-list-item {
         margin-bottom: 5%;
@@ -1247,10 +1254,67 @@
         margin-top: 70px;
     }
     .access-area .access-ttl img {
+        left: 36%;
+        width: 28%;
+        top: 84%;
+    }
+    .access-area .access-info .access-tel-flex .access-tel-img {
+        width: 6%;
+        margin-right: 5px;
+    }
+    .access-area .access-info .access-tel-flex p {
+        font-size: 54px;
+        font-weight: 600;
+    }
+    .access-area .access-ttl {
+        font-size: 23px;
+        padding-top: 60px;
+    }
+    .access-area .access-ttl .access-ttl-en {
+        font-size: 22px;
+    }
+    .access-area .access-info {
+        padding: 40px 0 140px 0;
+    }
+    .access-area .access-info p .access-info-btm {
+        font-size: 20px;
+        margin-top: 10px;
+        display: block;
+    }
+    .access-area {
+        padding: 0 5%;
+    }
+    .access-area .access-info p {
+        font-size: 24px;
+    }
+    .access-area {
+        background-image: url(/_files/00000567/sp_access_bg.jpg);
+        background-position: bottom;
+    }
+    .netWork-page .netWork-list-link {
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .access-area {
+        background-position: unset;
+    }
+    .access-area .access-ttl img {
         left: 22%;
         width: 56%;
+        top: 82%;
     }
     .access-area .access-info .access-tel-flex .access-tel-img {
         width: 9%;
+        margin-right: 5px;
+    }
+    .access-area .access-info p .access-info-btm {
+        font-size: 19px;
+        margin-top: 20px;
+        display: block;
+    }
+    .access-area .access-info p {
+        font-size: 21px;
     }
 }

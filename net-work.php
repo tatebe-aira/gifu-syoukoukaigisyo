@@ -5,9 +5,15 @@
         margin: 0 auto;
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1024px) {
         .boxwrap {
             width: 100%;
+            padding: 0px 4%;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .boxwrap {
             padding: 0px 8%;
         }
     }
@@ -70,7 +76,7 @@
         <div class="access-info">
             <p>
                 岐阜商工会議所　<br class="sp">岐阜県事業承継引継ぎ支援センター<br>
-                <sapn class="access-info-btm">〒500-8727　岐阜市神田町2-2 岐阜商工会議所3F</sapn>
+                <sapn class="access-info-btm">〒500-8727　<br class="sp">岐阜市神田町2-2 岐阜商工会議所3F</sapn>
             </p>
             <div class="access-tel-flex">
                 <div class="access-tel-img"><img src="/_files/00000567/tell_ico.gif" alt=""></div>
