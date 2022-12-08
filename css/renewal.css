@@ -1212,6 +1212,7 @@
 @media screen and (max-width:768px) {
     .netWork-page .netWork-list-flex {
         flex-wrap: wrap;
+        margin-bottom: 80px;
     }
     .netWork-page .netWork-about-area .netWork-about-flexBox {
         flex-wrap: wrap;
@@ -1219,5 +1220,37 @@
     .netWork-page .netWork-about-area .netWork-about-flexBox .netWork-about-left,
     .netWork-page .netWork-about-area .netWork-about-flexBox .netWork-about-right {
         width: 100%;
+    }
+    .netWork-page .netWork-info-ttl h2 {
+        font-size: 23px;
+        padding: 50px 0 40px 0;
+    }
+    .netWork-page .netWork-about-area p,
+    .netWork-page .netWork-about-area .netWork-about-flexBox .netWork-about-left p {
+        font-size: 22px;
+    }
+    .netWork-page .netWork-about-area .netWork-about-flexBox {
+        margin-top: 30px;
+    }
+    .netWork-page .netWork-about-area .netWork-about-flexBox .netWork-about-right p {
+        font-size: 19px;
+    }
+    .netWork-page .netWork-list-flex .netWork-list-item {
+        margin-bottom: 5%;
+        margin-right: 0;
+    }
+    .netWork-page .netWork-list-flex .netWork-list-item:last-child {
+        margin-bottom: 0;
+    }
+    .netWork-page .netWork-about-area,
+    .netWork-page .netWork-kousei-img {
+        margin-top: 70px;
+    }
+    .access-area .access-ttl img {
+        left: 22%;
+        width: 56%;
+    }
+    .access-area .access-info .access-tel-flex .access-tel-img {
+        width: 9%;
     }
 }

@@ -8,11 +8,12 @@
     @media screen and (max-width:768px) {
         .boxwrap {
             width: 100%;
+            padding: 0px 8%;
         }
     }
 </style>
 <div class="netWork-detail-page netWork-page">
-    <div class="mv-img"><img alt="岐阜県事業承継・引継ぎ支援センター ネットワーク事業" class="pc" src="/banner/network2.jpg" /></div>
+    <div class="mv-img"><img alt="岐阜県事業承継・引継ぎ支援センター ネットワーク事業" src="/banner/network2.jpg" /></div>
     <div class="netWork-info-ttl">
         <h2>岐阜県事業承継ネットワーク事業</h2>
     </div>
@@ -29,7 +30,7 @@
                     （3）個別事業者への支援<br />
                     （4）事業承継ネットワーク会議の開催
                 </p>
-                <br>
+                <br class="pc">
                 <p>を行っております。</p>
             </div>
             <div class="netWork-about-right">
@@ -68,7 +69,7 @@
         </h2>
         <div class="access-info">
             <p>
-                岐阜商工会議所　岐阜県事業承継引継ぎ支援センター<br>
+                岐阜商工会議所　<br class="sp">岐阜県事業承継引継ぎ支援センター<br>
                 <sapn class="access-info-btm">〒500-8727　岐阜市神田町2-2 岐阜商工会議所3F</sapn>
             </p>
             <div class="access-tel-flex">
