@@ -80,7 +80,10 @@
             </p>
             <div class="access-tel-flex">
                 <div class="access-tel-img"><img src="/_files/00000567/tell_ico.gif" alt=""></div>
-                <p>058-214-2940</p>
+                <p class="pc">058-214-2940</p>
+                <a href="tel:0582142940" class="sp">
+                    <p>058-214-2940</p>
+                </a>
             </div>
         </div>
     </div>

@@ -1263,7 +1263,7 @@
         margin-right: 5px;
     }
     .access-area .access-info .access-tel-flex p {
-        font-size: 54px;
+        font-size: 48px;
         font-weight: 600;
     }
     .access-area .access-ttl {
@@ -1306,7 +1306,7 @@
         top: 82%;
     }
     .access-area .access-info .access-tel-flex .access-tel-img {
-        width: 9%;
+        width: 8%;
         margin-right: 5px;
     }
     .access-area .access-info p .access-info-btm {
@@ -1317,4 +1317,8 @@
     .access-area .access-info p {
         font-size: 21px;
     }
+}
+
+.access-area .access-info .access-tel-flex a {
+    text-decoration: none;
 }
