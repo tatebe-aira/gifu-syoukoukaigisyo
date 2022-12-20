@@ -19,7 +19,10 @@
     }
 </style>
 <div class="netWork-detail-page netWork-page">
-    <div class="mv-img"><img alt="岐阜県事業承継・引継ぎ支援センター ネットワーク事業" src="/banner/network2.jpg" /></div>
+    <div class="mv-img">
+        <img alt="岐阜県事業承継・引継ぎ支援センター ネットワーク事業" class="pc" src="images/network3.jpg" />
+        <img alt="岐阜県事業承継・引継ぎ支援センター ネットワーク事業" class="sp" src="images/SPnetwork3.jpg" />
+    </div>
     <div class="netWork-info-ttl">
         <h2>岐阜県事業承継ネットワーク事業</h2>
     </div>
